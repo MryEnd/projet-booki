@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/header.css">
+    <link rel="stylesheet" href="src/main.css">
+    <link rel="stylesheet" href="src/filters.css">
+    <link rel="stylesheet" href="src/resultat.css">
+    <link rel="stylesheet" href="src/activities.css">
+    <link rel="stylesheet" href="src/footer.css">
+   
+</head>
+<body>
+    <header>
+        <img class="header__logo" src="src/images/images/logo/Booki@3x.png" alt="logo">
+
+        <nav>
+            <ul class=" header-nav-menu"> 
+                <li class="header-nav-menu-item"><a href="#">Hébergements</a></li>
+                <li class="header-nav-menu-item"><a href="#">Activités</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <main>
+        <section class="research">
+            <div class="hebergement"> 
+                <h1 class="hebergement-title" >Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou dans la nature</p>
+            </div>
+            <form class="research-formulaire" method="get"> 
+                <i class="fas fa-search research-formulaire__icone"></i>
+                <input class="research-formulaire__imput" type="text" placeholder="Ciboure, Euskal Herria">
+                <button class="research-formulaire__button" type="submit">
+                    <span>Rechercher</span>
+                    <i class="fas fa-search"></i>
+                </button>     
+            </form>
+        </section>
+
+        <section class="filters">
+            <div class="filters__item">
+              <h2 class="filters__title">Filtres</h2>
+              <ul class="filters__list">
+                <li class="filter__item">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <p>Economique</p>
+                </li>
+                <li class="filter__item">
+                    <i class="fas fa-child"></i>
+                    <p>Familial</p>
+                </li>
+                <li class="filter__item"> 
+                    <i class="fas fa-heart"></i>
+                    <p>Romantique</p>
+                </li>
+                <li class="filter__item">
+                    <i class="fas fa-dog"></i>
+                    <p>Animaux autorisés</p>
+                </li>
+              </ul>
+            </div>
+            <div class="filter__disponibilities">
+                <i class="fas fa-info"></i>
+                <p>Plus de 300 logements sont disponibles dans cette ville</p>
+            </div>
+         </section>
+
+     <div class="accomodation__and__most__popular">
+         <section class="box-all-results">
+            <h2 class="box-all-results__title">Hébergements à Ciboure</h2>
+            <div class="box-all-results__all-cards">
+              <div class="box-all-results__card">
+                 <img class="box-all-results__picture" src="src/images/images/hebergements/agur deneri.jpg" alt="photo mer hotel Agur deneri">
+                 <h3 class="box-all-results__name">Hôtel Agur deneri</h3>
+                 <p class="box-all-results__price">Nuit à partir de 25e</p>
+                 <div class="box-all-results__all-star-icone">
+                   <i class="box-all-results__star-icone full fas fa-star"></i>
+                   <i class="box-all-results__star-icone full fas fa-star"></i>
+                   <i class="box-all-results__star-icone full fas fa-star"></i>
+                   <i class="box-all-results__star-icone full fas fa-star"></i>
+                   <i class="box-all-results__star-icone empty fas fa-star"></i>
+                 </div>
+              </div>
+            
+
+            <div class="box-all-results__card">
+                <img class="box-all-results__picture" src="src/images/images/hebergements/belarra.jpg" alt="photo mer hotel belarra">
+                <h3 class="box-all-results__name">Hôtel Belarra</h3>
+                <p class="box-all-results__price">Nuit à partir de 52e</p>
+                <div class="box-all-results__all-star-icone">
+                  <i class=" box-all-results__star-icone  full fas fa-star"></i>
+                 <i class=" box-all-results__star-icone  full fas fa-star"></i>
+                  <i class=" box-all-results__star-icone  full fas fa-star"></i>
+                  <i class=" box-all-results__star-icone  full fas fa-star"></i>
+                  <i class=" box-all-results__star-icone  full fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="box-all-results__card">
+                <img class="box-all-results__picture" src="src/images/images/hebergements/chantaco.jpg" alt="photo terasse hotel Chantaco">
+                <h3 class="box-all-results__name">Hôtel Chantaco</h3>
+                <p class="box-all-results__price">Nuit à partir de 76e</p>
+                <div class="box-all-results__all-star-icone">
+                  <i class="box-all-results__star-icone full fas fa-star"></i>
+                  <i class="box-all-results__star-icone full fas fa-star"></i>
+                  <i class="box-all-results__star-icone full fas fa-star"></i>
+                  <i class="box-all-results__star-icone full fas fa-star"></i>
+                  <i class="box-all-results__star-icone empty fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="box-all-results__card">
+                <img class="box-all-results__picture" src="src/images/images/hebergements/grand hotel.jpg" alt="photo chambre hotel grand hotel">
+                <h3 class="box-all-results__name">Le Grand Hotel</h3>
+                <p class="box-all-results__price">Nuit à partir de 96e</p>
+                <div class="box-all-results__all-star-icone">
+                  <i class="box-all-results__star-icone full fas fa-star"></i>
+                  <i class="box-all-results__star-icone full fas fa-star"></i>
+                  <i class="box-all-results__star-icone full fas fa-star"></i>
+                  <i class="box-all-results__star-icone full fas fa-star"></i>
+                  <i class="box-all-results__star-icone full fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="box-all-results__card">
+                <img class="box-all-results__picture" src="src/images/images/hebergements/heliantal.jpg" alt="photo chambre heliantal">
+                <h3 class="box-all-results__name">Hôtel heliantal</h3>
+                <p class="box-all-results__price">Nuit à partir de 75e</p>
+                <div class="box-all-results__all-star-icone">
+                  <i class="box-all-results__star-icone full fas fa-star"></i>
+                  <i class="box-all-results__star-icone full fas fa-star"></i>
+                  <i class="box-all-results__star-icone full fas fa-star"></i>
+                  <i class="box-all-results__star-icone full fas fa-star"></i>
+                  <i class="box-all-results__star-icone empty fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="box-all-results__card">
+                <img class="box-all-results__picture" src="src/images/images/hebergements/iduskia.jpg" alt="photo mer hotel Iduskia">
+                <h3 class="box-all-results__name">Hôtel Iduskia</h3>
+                <p class="box-all-results__price">Nuit à partir de 57e</p>
+                <div class="box-all-results__all-star-icone">
+                  <i class="box-all-results__star-icone full fas fa-star"></i>
+                  <i class="box-all-results__star-icone full fas fa-star"></i>
+                  <i class="box-all-results__star-icone full fas fa-star"></i>
+                  <i class="box-all-results__star-icone empty fas fa-star"></i>
+                  <i class="box-all-results__star-icone empty fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <p class="more">Afficher plus</p>
+        </section>
+
+
+        <section class="box-most-popular">
+            <h2 class= box-most-popular__title>Les plus populaires</h2>
+            <div class="box-most-popular__all-cards">
+                <div class=box-most-popular__card>
+                    <img class="box-most-popular__picture" src="src/images/images/hebergements/la caravelle.jpg" alt="chambre mer la caravelle">
+                    <div class="box-most-popular__info">
+                       <h3 class="box-most-popular__name"> Hotel La Caravelle</h3>
+                       <p class="box-most-popular__price">Nuit à partir de 53e</p>
+                       <div class="box-most-popular__all-star-icone">
+                        <i class="box-most-popular__star-icone full fas fa-star"></i>
+                        <i class="box-most-popular__star-icone full fas fa-star"></i>
+                        <i class="box-most-popular__star-icone full fas fa-star"></i>
+                        <i class="box-most-popular__star-icone full fas fa-star"></i>
+                        <i class="box-most-popular__star-icone empty fas fa-star"></i>
+                       </div>
+                    </div>
+                </div>
+
+                    <div class=box-most-popular__card>
+                        <img class="box-most-popular__picture" src="src/images/images/hebergements/rsidence du golf.jpg" alt="piscine residence du golf">
+                        <div class="box-most-popular__info">
+                           <h3 class="box-most-popular__name"> Résidence du Golf</h3>
+                           <p class="box-most-popular__price">Nuit à partir de 48e</p>
+                           <div class="box-most-popular__all-star-icone">
+                             <i class="box-most-popular__star-icone full fas fa-star"></i>
+                             <i class="box-most-popular__star-icone full fas fa-star"></i>
+                             <i class="box-most-popular__star-icone full fas fa-star"></i>
+                             <i class="box-most-popular__star-icone full fas fa-star"></i>
+                             <i class="box-most-popular__star-icone full fas fa-star"></i>
+                           </div>
+                        </div>
+                    </div>
+
+                    <div class=box-most-popular__card>
+                        <img class="box-most-popular__picture" src="src/images/images/hebergements/soko eder.jpg" alt="piscine terasse Soko Eder">
+                        <div class="box-most-popular__info">
+                           <h3 class="box-most-popular__name"> Hotel Soko Eder</h3>
+                           <p class="box-most-popular__price">Nuit à partir de 67e</p>
+                           <div class="box-most-popular__all-star-icone">
+                             <i class="box-most-popular__star-icone full fas fa-star"></i>
+                             <i class="box-most-popular__star-icone full fas fa-star"></i>
+                             <i class="box-most-popular__star-icone full fas fa-star"></i>
+                             <i class="box-most-popular__star-icone full fas fa-star"></i>
+                             <i class="box-most-popular__star-icone empty fas fa-star"></i>
+                           </div>
+                        </div>
+                    </div>
+                 </div>
+
+            </div>
+         </section>
+     </div>
+
+    
+     <section class="activities">
+         <h2 class="box-activities__title">Activités aux alentours</h2>
+         <div class="box-activities__all-cards">
+             <div class="box-activities__column">
+                <div class="box-activities__card card1">
+                   <img class="box-activities-card__picture picture1"src="src/images/images/activites/rhune.jpg" alt="photo montagne rhune">
+                   <h3 class="box-activities__name"> La Rhune</h3>
+                </div>
+            </div>
+
+            <div class="box-activities__column">
+                <div class="box-activities__card card2">
+                    <img class="box-activities-card__picture picture2" src="src/images/images/activites/marché st jean.jpg" alt="photo marché St jean">
+                    <h3 class="box-activities__name"> Le Marché</h3>
+                </div>
+            
+
+                <div class="box-activities__card card2 ">
+                    <img class="box-activities-card__picture" src="src/images/images/activites/pintxos.jpg" alt="photo tapas">
+                    <h3 class="box-activities__name">Les Pintxo pote</h3>
+                </div>
+             </div>
+
+             <div class="box-activities__column">
+                <div class="box-activities__card card1">
+                   <img class="box-activities-card__picture "src="src/images/images/activites/fandango.jpg" alt="photo montagne rhune">
+                   <h3 class="box-activities__name"> La danse</h3>
+                </div>
+            </div>
+
+
+        
+            <div class="box-activities__column">
+                <div class="box-activities__card card2">
+                    <img class="box-activities-card__picture picture2" src="src/images/images/activites/pilota.jpg" alt="photo marché St jean">
+                    <h3 class="box-activities__name">Les sports traditionels</h3>
+                </div>
+            
+
+                <div class="box-activities__card card2 ">
+                    <img class="box-activities-card__picture" src="src/images/images/activites/herri urrats.jpg" alt="photo tapas">
+                    <h3 class="box-activities__name"> Les fêtes culturelles  </h3>
+                </div>
+             </div>
+
+           
+           </div>
+        </section>
+
+
+        <section class="box-footer">
+            <div class="footer__all-column">
+                <div class="footer__column">
+                    <h4 class="footer__title">A propos</h4>
+                    <ul class="column__list">
+                        <li> <a href="#">Fonctionnement du site </a></li>
+                        <li> <a href="#">Conditions générales de vente</a></li>
+                        <li> <a href="#">Données et confidentialité</a></li>
+                    </ul>
+                 </div>
+
+                 <div class="footer__column">
+                     <h4 class="footer__title">Nos hébergements</h4>
+                    <ul class="column__list">
+                     <li> <a href="#">Soumettre votre hôtel</a></li>
+                     <li> <a href="#">Charte qualité </a></li>
+                     
+                    </ul>
+                 </div>
+
+
+                 <div class="footer__column">
+                     <h4 class="footer__title">Assistance</h4>
+                    <ul class="column__list">
+                        <li> <a href="#">Centre d'aide</a></li>
+                        <li> <a href="#">Nous contacter </a></li>
+                        
+                    </ul>
+                 </div>
+
+
+
+                
+            </div>
+        </section>
+
+
+       
+        
+   
+
+
+
+
+
+
+
+        
+
+    </main>    
+</body>
+</html>

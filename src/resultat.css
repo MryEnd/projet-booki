@@ -1,0 +1,224 @@
+.accomodation__and__most__popular{
+    display:flex;
+    justify-content:space-around;
+}
+
+
+
+
+
+.box-all-results {
+    border:solid 1px #f2f2f2;
+    width:60%;
+    border-radius: 25px;
+    background-color:#f2f2f2;
+    margin-left:2.5vw;
+}
+
+.box-all-results__title {
+    margin:20px;
+}
+
+.box-all-results__all-cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    width:100%;
+    ;
+   
+}
+
+.box-all-results__card{
+    width:28%;
+    height:25%;
+    background-color:white;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    border-radius:25px;
+    margin:15px;
+    padding:5px;
+    box-shadow: 10px 5px 5px lightgray;
+    
+}
+
+.box-all-results__card:hover{
+    border-color: #333;
+	transform:scale(110%);
+}
+
+
+
+
+.box-all-results__picture{
+    border-radius:20px 20px 0 0;
+    width:100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.box-all-results__name{
+    margin:0;
+    padding:5px 5px 1px 5px;
+}
+
+.box-all-results__price{
+    margin:0;
+    padding:5px;
+}
+
+.box-all-results__all-star-icone{
+    margin: 5px 0 10px 10px;
+
+   
+}
+
+
+
+.full{
+    color:#0065fc;
+}
+
+.empty{
+    color:lightgray;
+
+}
+
+
+.more {
+    font-weight: bold;
+    margin-left:20px;
+
+}
+
+.box-most-popular {
+    border:solid 1px #f2f2f2;
+    width:30%;
+    border-radius: 25px;
+    background-color:#f2f2f2;
+    margin-right:2.5vw;
+}
+
+.box-most-popular__card:hover{
+    border-color: #333;
+	transform:scale(110%);
+}
+
+
+
+
+.box-most-popular__title{
+    margin:20px;
+}
+
+.box-most-popular__all-cards{
+    flex-direction: column;
+    
+   
+}
+
+.box-most-popular__card{
+    height:25%;
+    background-color:white;
+    display:flex;
+    border-radius:25px;
+    margin:30px;
+    padding:5px;
+    box-shadow: 10px 5px 5px lightgray;
+
+}
+
+
+
+.box-most-popular__picture{
+    border-radius:20px 0 0 20px;
+    width:40%;
+    height:150px;
+}
+
+.box-most-popular__info{
+    display:flex;
+    flex-direction:column;
+   
+
+}
+
+.box-most-popular__name{
+    font-weight: bold;
+    margin: 10px 0 0 10px;
+    
+}
+.box-most-popular__price{
+    margin: 5px 0 0 10px;
+}
+
+
+.box-most-popular__all-star-icone{
+    margin: 0 0 5px 10px;
+    flex: 1;
+    display: flex;
+    align-items:flex-end;
+}
+
+@media (min-width:768px) and (max-width: 991px){
+    .box-all-results{
+        width:60%
+    }
+    .box-all-results__card{
+        width:40%
+    }
+
+
+    .box-most-popular__card{
+        display:flex;
+        flex-direction:column;
+}
+
+    .box-most-popular__picture{
+        width:100%;
+        border-radius:25px 25px 0 0;
+        height:120px;
+    }
+               
+}
+
+
+@media (max-width: 767px) {
+     .accomodation__and__most__popular{
+         width:100%;
+         margin:0;
+         display:flex;
+         flex-direction: column-reverse;
+     }
+    
+    .box-most-popular{
+          width:100%;
+          margin:0;
+         
+    }
+
+    .box-all-results{
+        width:100%;
+        margin:0;
+        background-color:white;
+        border:transparent;
+        
+        
+        
+    }
+
+    .box-all-results__card{
+        width:90%;
+       
+    }
+
+    .box-all-results__card:hover{
+        transform:scale(102%);
+    }
+
+
+    .box-most-popular__card:hover{
+        transform:scale(102%);
+    }
+
+}
